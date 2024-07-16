@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import url(../css/common.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+.myinfoBg{
+    background-color: #333;
+    width: 100%;
+    height: 200px;
+    position: relative;	
+}
+.myinfo_wrap>h1{
+	color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: -40px;
+}
+.myinfo_wrap{
+    position: relative;
+    background-color: #fff;
+    top: -125px;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0, 0.1);
+}
+
+.myinfoBox{
+	width: 300px;
+    margin: 0 auto;
+    position: relative;
+	
+}
+.myinfoBox>p{
+	text-align: center;
+	font-size: 16px;
+    color: #838181;
+    font-weight: bold;
+}
+.myImg{
+	width: 130px;
+    height: 130px;
+    background-color: #eee;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 55px;
+    border-radius: 50%;
+}
+.myinfoBox>a{
+	position: absolute;
+    bottom: 50px;
+    left: 30px;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+ 	 font-weight: bold;
+ 	  background-color:red;
+}
+.myinfoBox>a:hover{
+	 background-color: #8f1818;
+}
+.myMovie_wrap{
+    width: 100%;
+	border-left: 1px solid #eee;
+    padding: 0 50px;
+}
+.user_name{
+	text-align: center;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 0;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+thead{
+    background-color: #444;
+    color: #fff;
+}
+thead>tr>th{
+	 padding: 10px 0;
+	 border-right: 1px solid #fff;
+}
+thead>tr>th:last-child{
+	border-right: none;
+}
+tbody>tr>td{
+    height: 30px;
+    font-size: 16px;
+}
+input.bookId_input{
+	font-size: 16px;
+	text-align: center;
+	width: 40px;
+	font-weight: bold;
+	outline: none;
+    background-color: transparent;
+}
+.delete_btn{
+    background-color: #6A24FE;
+    color: #fff;
+    width: 100%;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.delete_btn:hover{
+	 background-color: #000;
+	 transition: 0.3s;
+}
+.bookId_td{
+	background-color : #eee;
+}
+
+.myPage_subTitle{
+	font-size: 18px;
+    padding: 20px 0px;
+}
+.myMovie_wrap>ul:nth-child(2)>h1{
+	border-top: 1px solid #eee;
+}
+
+.mymovie{
+	display: flex;
+}
+.mymovie>li{
+	margin-right: 10px;
+}
+.mymovie_poster{
+	position: relative;
+}
+.mymovie_poster>img	{
+	width: 150px;
+	position: relative;
+}
+.mymovie_poster>span{
+	position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mymovie_poster>span:hover{
+	 background-color:#fff;
+}
+.mymovie_info{
+	display: flex;
+	width: 150px;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.mymovie_info>a{
+    color: #fff;
+    background-color: red;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+.my_list_empty{
+    font-size: 16px;
+    text-align: center;
+}
+.my_list_empty>a{
+	    display: block;
+    font-size: 14px;
+    background-color: red;
+    width: 150px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 21px auto;
+}
