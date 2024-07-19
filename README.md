@@ -28,13 +28,12 @@ Java와 Servlet/JSP를 학습한 후 만든 영화 예매 사이트
 
 ## :mag:구현 결과
 ### 로그인/회원가입
-![그림3](https://github.com/user-attachments/assets/bb1979c1-2f31-4bce-b19c-3ccbe39b0327)
-![그림2](https://github.com/user-attachments/assets/b739a1cb-4d20-4c04-85fd-2bee6380b3e8)
+![GIFMaker_me (1)](https://github.com/user-attachments/assets/92e1b26e-89b5-4705-bdf7-db57dd5d8b10)
+![GIFMaker_me (2)](https://github.com/user-attachments/assets/6e412a70-da82-4928-97e8-66b3a6eb2939)
 
 ### 1.메인페이지
 메인 배너는 슬릭슬라이더를 사용했고, 최신 및 인기 영화 목록을 정렬해서 나타내고 싶었지만 시간이 부족해 적용하지 못했습니다.
-
-<img width="780" alt="그림1" src="https://github.com/user-attachments/assets/79b556b0-45d1-4e7e-a33e-caa60842ce90">
+![GIFMaker_me](https://github.com/user-attachments/assets/844c894d-3068-4b7d-8f50-d0d11e3d8599)
 
 ### 2.영화 목록
 
