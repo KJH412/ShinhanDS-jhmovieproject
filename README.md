@@ -29,6 +29,7 @@ JSP와 Servlet을 이용한 MVC 패턴 프로젝트 - 영화 예매 서비스
 ## :mag:구현 결과
 ### 로그인/회원가입
 회원가입을 할 때 아이디 중복 체크로 확인할 수 있으며, 로그인 시 비밀번호가 맞지 않거나 해당 아이디가 존재하지 않으면 안내 문구가 나타납니다.
+
 ![GIFMaker_me (1)](https://github.com/user-attachments/assets/92e1b26e-89b5-4705-bdf7-db57dd5d8b10)
 ![GIFMaker_me (2)](https://github.com/user-attachments/assets/6e412a70-da82-4928-97e8-66b3a6eb2939)
 
